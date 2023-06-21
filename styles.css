@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(46, 46, 44);
+    font-family: "roboto";
+}
+
+.post-container {
+    background-color: black;
+    height: 1250px;
+    width: 1000px;
+    margin: 50px auto;
+    position: relative;
+
+.post {
+    background-color: white;
+    height: 950px;
+    width: 750px;
+    margin: 120px 120px;    
+    position: absolute;
+}
+
+.post-header {
+    width:auto;
+    height: 9%;
+    display: flex;
+}
+
+.html-icon {
+    padding: 15px;
+   
+}
+.title-header {
+    font-style: bold;
+    margin-bottom: 5px;
+}
+.name {
+    margin-top: 0%;
+}
+.ellipsis {
+    margin-left: 73%;
+    padding-top: 15px;
+    position: relative;
+}
+
+.icons{
+    display: flex;
+    padding: 15px;
+}
+
+.photo {
+    max-width: 750px;
+    max-height: 750px;
+}
+
+.firstBox {
+    display: flex;
+    gap: 10px;
+}
+.secondBox {
+    margin-left: 70%;
+}
+.likes {
+    margin: 10px 15px;
+    padding-top: 15px;
+}
+
+.textCaption {
+    margin: 10px 15px;
+    }
